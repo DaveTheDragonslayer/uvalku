@@ -1876,7 +1876,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.navbar-light .navbar-brand {
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
 	color: #fff;
 }
 
@@ -1965,12 +1965,15 @@ h1, h2, h3, h4, h5, h6 {
   background-image: -ms-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
 }
 
-.p1-gradient-color, .counter-left h2, .footer-social a:hover i, .single-footer-widget .bb-btn {
+.p1-gradient-color, .counter-left h2, .footer-social a:hover i, .single-footer-widget .bb-btn, .hodnoceni .h2 {
   background: -moz-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
   background: -webkit-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
   background: -ms-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.single-feature:hover .hodnoceni .h2 {
+  color: #fff;
 }
 
 .primary-btn {

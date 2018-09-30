@@ -1,0 +1,9 @@
+#ErrorDocument 404 /404.php
+
+#RewriteEngine On 
+
+#RewriteRule ^ubytovani/      ubytovani.php [L,QSA]
+#RewriteRule ^fotogalerie/    fotogalerie.php [L,QSA]
+#RewriteRule ^volny-cas/      volny-cas.php [L,QSA]
+#RewriteRule ^cenik/          cenik.php [L,QSA]
+#RewriteRule ^slevy-a-dalsi/  slevy-a-dalsi.php [L,QSA]

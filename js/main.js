@@ -70,6 +70,9 @@ $(document).ready(function(){
         items:1,
         loop:true,
         dots: true,
+        autoplayTimeout: 2000,
+        smartSpeed: 1000,
+        animateOut: 'fadeOut',
         autoplay:true,
         nav:true,
         navText: ["<span class='lnr lnr-arrow-up'></span>",
@@ -97,7 +100,7 @@ $('.active-blog-slider').owlCarousel({
         dots: true,
         items: 1,
         autoplay: true,
-        autoplayTimeout: 2000,
+        autoplayTimeout: 2500,
         smartSpeed: 1000,
         animateOut: 'fadeOut',
       })
